@@ -20,4 +20,8 @@ from GigglesAndGoals_App.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index,name='index'),
+    path('about',about,name='about'),
+    path('contact',contact,name='contact'),
+    path('cycle',cycle,name='cycle'),
+    path('news',news,name="news"),
 ]
